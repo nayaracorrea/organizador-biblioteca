@@ -51,13 +51,9 @@ $ npm install
 # development
 $ npm run start
 
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
 ```
 
+Após executar o comando basta, basta abrir o navegador e inserir a URL a seguir: http://localhost:3000/api/
 
 
 ## 🛠 Tecnologias
