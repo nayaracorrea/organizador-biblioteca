@@ -1,38 +1,51 @@
+<h1 align="center">  Organizador de Biblioteca </h1>
+
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
+ <a href="#-sobre-o-projeto">Sobre</a> •
+ <a href="#-funcionalidades">Funcionalidades</a> •
+ <a href="#-como-executar-o-projeto">Como executar</a> • 
+ <a href="#-tecnologias">Tecnologias</a> • 
+ <a href="#-autora">Autora</a> 
 </p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+## 💻 Sobre o projeto
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+API Rest criada utilizando NestJS e MongoDB.
+A ideia era criar uma API para armazenar, ler, deletar e atualizar dados de livros.
 
-## Description
+Tutorial inicial: 
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+<a href="hthttps://www.youtube.com/watch?v=V0ye6gXFFj0&list=PLT2b3Y_zT4_9LK6Gtz_QbpfDcxH07xhG5">
+  <img alt="Made by Matheus Barros" src="https://img.shields.io/badge/Youtube-Curso%20API%20Rest-red">
+</a>
 
-## Installation
+## ⚙️ Funcionalidades
+
+- [x] Pesquisar todos livros
+- [x] Pesquisar livros pela ID
+- [x] Pesquisar livros pelo nome
+- [x] Pesquisar livros pelo autor
+- [x] Editar livros pela ID
+- [x] Salvar livros
+- [x] Deletar livros pela ID
+
+
+## 🚀 Como executar o projeto
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+
+### Instalação dos Pacotes
 
 ```bash
 $ npm install
 ```
 
-## Running the app
+### Executar a aplicação
 
 ```bash
 # development
@@ -45,29 +58,34 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
 
-```bash
-# unit tests
-$ npm run test
 
-# e2e tests
-$ npm run test:e2e
+## 🛠 Tecnologias
 
-# test coverage
-$ npm run test:cov
-```
+As seguintes ferramentes foram usadas na construção do projeto:
 
-## Support
+### **API** [NestJS](https://docs.nestjs.com/) + [MongoDB](https://www.mongodb.com/pt-br)
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+- **[TypeScript](https://www.typescriptlang.org/)**
 
-## Stay in touch
+> Veja o arquivo [package.json](https://github.com/nayaracorrea/organizador-biblioteca/blob/master/package.json)
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+## 💪 Como contribuir para o projeto
 
-## License
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`
 
-Nest is [MIT licensed](LICENSE).
+## 🙋 Autora
+
+<a href="https://app.rocketseat.com.br/me/nayaraflorentino-1602180404901">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/43212442?s=400&u=6330cdf68f31859541a3805c6e2fa3bf59f90f82&v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Nayara Corrêa</b></sub></a> <a href="https://app.rocketseat.com.br/me/nayaraflorentino-1602180404901" title="Rocketseat">🚀
+ </a>
+
+Feito por Nayara Corrêa 👋🏽 Entre em contato!
+
+[![Linkedin Badge](https://img.shields.io/badge/-Nayara-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/nayaracorreaflorentino/)](https://www.linkedin.com/in/nayaracorreaflorentino/)
+[![Gmail Badge](https://img.shields.io/badge/-nayara.florentino@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:nayara.florentino@gmail.com)](mailto:nayara.florentino@gmail.com)
